@@ -16,13 +16,12 @@
     <h3 id="how-to-apply">How to apply this license</h3>
     <p>
       {{ page.how }}
-    </p>
+      </p>
     <div class="note">
     <h4 id="optional-steps">Optional steps</h4>
     {% if page.note %}
     <p>
       {{ page.note }}
-    </p>
     {% endif %}
     {% assign xgpl = false %}
     {% if page.spdx-id contains 'GPL' %}{% assign xgpl = true %}{% endif %}
